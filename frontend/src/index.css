@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+.icon-box {
+  @apply cursor-pointer p-3 rounded-full transition-all duration-300 ease-in-out hover:scale-110 shadow-sm;
+}
+
+
+@layer base {
+  :root {
+    --color-bg: #020617;
+    --color-surface: #020617;
+    --color-border: #1E293B;
+
+    --color-text: #E5E7EB;
+    --color-muted: #94A3B8;
+
+    --color-primary: #6366F1;
+    --color-accent: #22D3EE;
+  }
+}
+
+@layer components {
+  .bg-bg { background-color: var(--color-bg); }
+  .bg-surface { background-color: var(--color-surface); }
+
+  .text-main { color: var(--color-text); }
+  .text-muted { color: var(--color-muted); }
+
+  .bg-primary { background-color: var(--color-primary); }
+  .text-primary { color: var(--color-primary); }
+
+  .border-soft { border-color: var(--color-border); }
+}
+
+
+
+
+/* 
+.figma-gradient {
+  color: linear-gradient(
+    180deg,
+    #F24E1E,
+    #FF7262,
+    #A259FF,
+    #1ABCFE,
+    #0ACF83
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
