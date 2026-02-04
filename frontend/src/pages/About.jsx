@@ -77,7 +77,7 @@ function About() {
               className="flex flex-col md:flex-row items-center gap-10 md:gap-16"
             >
               {/* LEFT — Image */}
-              <div className="md:w-1/2 w-90 flex justify-center">
+              <div className="md:w-1/2 w-70 flex justify-center">
                 <div className="rounded-xl overflow-hidden border border-soft bg-surface flex items-center justify-center">
                   <img
                     src={item.image}
