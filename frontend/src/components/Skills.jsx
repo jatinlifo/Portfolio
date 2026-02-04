@@ -191,14 +191,14 @@ function Skills() {
         Skills
       </h1>
 
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 ml-3 md:ml-0
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5 ml-2 md:ml-0
        text-white [@media(min-width:1018px)_and_(max-width:1125px)]:grid-cols-3">
 
         {/* ========== Frontend ========== */}
         <div className=''>
           <h2 className="text-xl md:text-2xl font-semibold mb-4">Frontend</h2>
           <div className="flex items-start space-x-8">
-            <div className="relative h-40 w-[2px] bg-white">
+            {/* <div className="relative h-40 w-[2px] bg-white">
               {[1, 3, 5, 7.2, 9.2].map((t) => (
                 <div
                   key={t}
@@ -207,8 +207,8 @@ function Skills() {
                 >
                 </div>
               ))}
-            </div>
-            <div className="flex flex-col gap-1.5 text-lg text-white">
+            </div> */}
+            <div className="flex flex-col gap-1.5 text-sm md:text-lg text-white">
               <div className='flex items-center gap-1'>
                 <FaHtml5 className='text-orange-600' />
                 <span>HTML</span>
@@ -237,7 +237,7 @@ function Skills() {
         <div>
           <h2 className="text-xl md:text-2xl font-semibold mb-4">Backend</h2>
           <div className="flex items-start space-x-8">
-            <div className="relative h-40 w-[2px] bg-white">
+            {/* <div className="relative h-40 w-[2px] bg-white">
               {[1, 3, 5, 7.2, 9.2].map((t) => (
                 <div
                   key={t}
@@ -246,8 +246,8 @@ function Skills() {
                 >
                 </div>
               ))}
-            </div>
-            <div className="flex flex-col gap-1.5 text-lg text-white">
+            </div> */}
+            <div className="flex flex-col gap-1.5 text-sm md:text-lg text-white">
               <div className='flex items-center gap-1'>
                 <FaNodeJs className='text-green-600' />
                 <span>Node.js</span>
@@ -276,7 +276,7 @@ function Skills() {
         <div>
           <h2 className="text-xl md:text-2xl font-semibold mb-4">Other Tools</h2>
           <div className="flex items-start space-x-8">
-            <div className="relative h-32 w-[2px] bg-white">
+            {/* <div className="relative h-32 w-[2px] bg-white">
               {[1, 3, 5, 7.2,].map((t) => (
                 <div
                   key={t}
@@ -285,8 +285,8 @@ function Skills() {
                 >
                 </div>
               ))}
-            </div>
-            <div className="flex flex-col gap-1.5 text-lg text-white">
+            </div> */}
+            <div className="flex flex-col gap-1.5 text-sm md:text-lg text-white">
               <div className='flex items-center gap-1'>
                 <PiGithubLogoFill className='bg-white text-black rounded-full' />
                 <span>Git & GitHub</span>
@@ -311,7 +311,7 @@ function Skills() {
         <div>
           <h2 className="text-xl md:text-2xl font-semibold mb-4">DSA</h2>
           <div className="flex items-start space-x-8">
-            <div className="relative h-25 w-[2px] bg-white">
+            {/* <div className="relative h-25 w-[2px] bg-white">
               {[1, 3, 5.2,].map((t) => (
                 <div
                   key={t}
@@ -320,8 +320,8 @@ function Skills() {
                 >
                 </div>
               ))}
-            </div>
-            <div className="flex flex-col text-lg gap-1.5 text-white">
+            </div> */}
+            <div className="flex flex-col text-sm md:text-lg gap-1.5 text-white">
               <div className='flex items-center gap-1'>
                 <p className='font-bold  bg-black text-sm text-white px-1'>C</p>
                 <span>C</span>
@@ -342,7 +342,7 @@ function Skills() {
         <div>
           <h2 className="text-xl md:text-2xl font-semibold mb-4">Design</h2>
           <div className="flex items-start  space-x-8">
-            <div className="relative h-24 w-[2px] bg-white">
+            {/* <div className="relative h-24 w-[2px] bg-white">
               {[1, 3, 5,].map((t) => (
                 <div
                   key={t}
@@ -351,8 +351,8 @@ function Skills() {
                 >
                 </div>
               ))}
-            </div>
-            <div className="flex flex-col gap-1 text-lg text-white">
+            </div> */}
+            <div className="flex flex-col gap-1 text-sm md:text-lg text-white">
               <div className='flex items-center gap-1'>
                 <IoLogoFigma className='figma-gradient' />
                 <span>Figma</span>
@@ -374,7 +374,7 @@ function Skills() {
         <div>
           <h2 className="text-xl md:text-2xl font-semibold mb-4">System Design</h2>
           <div className="flex items-start space-x-8">
-            <div className="relative h-20 w-[2px] bg-white">
+            {/* <div className="relative h-20 w-[2px] bg-white">
               {[1, 3,].map((t) => (
                 <div
                   key={t}
@@ -383,8 +383,8 @@ function Skills() {
                 >
                 </div>
               ))}
-            </div>
-            <div className="flex flex-col gap-1.5 text-lg text-white">
+            </div> */}
+            <div className="flex flex-col gap-1.5 text-sm md:text-lg text-white">
               <div className='flex items-center gap-1'>
                 <span>LLD</span>
               </div>
