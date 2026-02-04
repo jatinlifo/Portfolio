@@ -6,7 +6,7 @@ function Footer() {
 
   return (
     <>
-      <div className="bg-bg pt-6">
+      <div className="bg-bg pt-6 pb-2">
 
         {/* 🔹 Separation Line */}
         <div className="mb-6 border-t border-soft"></div>
@@ -71,7 +71,7 @@ function Footer() {
       </div>
 
       {/* 🔹 Bottom text */}
-      <p className="text-xs text-center text-white bg-gray-900">
+      <p className="text-xs text-center py-1 text-white bg-gray-900">
         © {new Date().getFullYear()} Jatin
       </p>
     </>

@@ -7,7 +7,7 @@ function Navbar() {
     <div className='fixed left-0 right-0 top-0 z-50 bg-bg border-b border-soft'>
       <div className='max-w-6xl mx-auto px-4 py-4 md:px-8 h-16 flex justify-center gap-8 md:gap-0 md:justify-between'>
         <h1 className='font-bold text-xl md:text-2xl text-primary'>
-          Profolio
+          Portfolio
         </h1>
         <ul className='flex gap-4 md:gap-20 md:text-xl text-primary'>
           <li>
