@@ -28,7 +28,7 @@ function Footer() {
           {/* Social Icons */}
           <div className="grid grid-cols-2 gap-3 md:flex md:flex-row md:gap-10 text-3xl">
             <a
-              href="https://x.com/yourusername"
+              href="https://x.com/Jatin_lifo82"
               target="_blank"
               className="cursor-pointer rounded-full transition-all duration-300 hover:scale-110 hover:shadow-md"
             >
@@ -36,7 +36,7 @@ function Footer() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/jatin-kumar-384777331/"
               target="_blank"
               className="cursor-pointer rounded-full transition-all duration-300 hover:scale-110 hover:shadow-md"
             >
@@ -44,7 +44,7 @@ function Footer() {
             </a>
 
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/jatinlifo"
               target="_blank"
               className="cursor-pointer rounded-full transition-all duration-300 hover:scale-110 hover:shadow-md"
             >
@@ -52,7 +52,7 @@ function Footer() {
             </a>
 
             <a
-              href="https://www.instagram.com/yourusername"
+              href="https://www.instagram.com/_jatin_k_31?igsh=MXAzbjVwZGl0MmV1dA=="
               target="_blank"
               className="cursor-pointer rounded-full transition-all duration-300 hover:scale-110 hover:shadow-md"
             >
@@ -60,7 +60,7 @@ function Footer() {
             </a>
 
             <a
-              href="https://www.facebook.com/yourusername"
+              href="https://www.facebook.com/share/17kBBdoaz7/"
               target="_blank"
               className="cursor-pointer rounded-full transition-all duration-300 hover:scale-110 hover:shadow-md"
             >

@@ -3,65 +3,48 @@ import { AiOutlineGithub, AiOutlineLink } from "react-icons/ai";
 
 function Projects() {
 
-    const projects = [
-  {
-    title: "Full-Stack MERN App",
-    description:
-      "A scalable MERN stack application with authentication, REST APIs, and optimized backend architecture.",
-    image: "/project1.png",
-    live: "https://yourprojectlive.com",
-    github: "https://github.com/yourusername/project1",
-  },
-  {
-    title: "DSA Visualizer",
-    description:
-      "Interactive platform to visualize data structures and algorithms with clean UI and efficient logic.",
-    image: "/project2.png",
-    live: "https://yourprojectlive.com",
-    github: "https://github.com/yourusername/project2",
-  },
-  {
-    title: "System Design Case Study",
-    description:
-      "High-level and low-level system design for scalable applications with real-world architecture patterns.",
-    image: "/project3.png",
-    live: "https://yourprojectlive.com",
-    github: "https://github.com/yourusername/project3",
-  },
-  {
-    title: "Portfolio Website",
-    description:
-      "Dark-mode developer portfolio built with React and Tailwind CSS using modern design principles.",
-    image: "/project4.png",
-    live: "https://yourprojectlive.com",
-    github: "https://github.com/yourusername/project4",
-  },
-  {
-    title: "Backend API Service",
-    description:
-      "RESTful backend service with authentication, authorization, and performance-optimized APIs.",
-    image: "/project5.png",
-    live: "https://yourprojectlive.com",
-    github: "https://github.com/yourusername/project5",
-  },
-  {
-    title: "React Dashboard",
-    description:
-      "Responsive dashboard with charts, role-based access, and clean component architecture.",
-    image: "/project6.png",
-    live: "https://yourprojectlive.com",
-    github: "https://github.com/yourusername/project6",
-  },
-];
-
+  const projects = [
+    {
+      title: "Shreeji Enterprises",
+      description:
+        "A professionally designed static business website built using React, TypeScript, Vite, and Tailwind CSS. This project was developed as my first freelance paid project, focusing on performance, responsiveness, and clean, maintainable frontend architecture.",
+      image: "./project/shreejee.png",
+      live: "https://solar-project-six-chi.vercel.app/",
+      github: "https://github.com/jatinlifo/solar-project",
+    },
+    {
+      title: "Coding Contest Platform",
+      description:
+        "A full-stack live coding contest platform currently under active development. It allows users to create contest rooms, select DSA problems, and compete with friends in real time & Ranking system. Built using React, JavaScript, Node.js, Express, and Socket.io, with a robust authentication system and seamless frontend–backend integration.",
+      image: "./project/coding.png",
+      live: "https://coding-contest-ten.vercel.app/",
+      github: "https://github.com/jatinlifo/coding-contest",
+    },
+    {
+      title: "Tic Tac Toe Game",
+      description:
+        "A classic Tic Tac Toe game developed using vanilla JavaScript along with HTML and CSS. The project demonstrates strong fundamentals in game logic, DOM manipulation, and state handling without relying on any external frameworks or libraries.",
+      image: "./project/tictac.png",
+      live: "https://tic-tac-toe-game-sable-kappa.vercel.app/",
+      github: "https://github.com/jatinlifo/TIC-TAC-TOE-GAME-",
+    },
+    {
+      title: "Chat Bot Application",
+      description:
+        "A chatbot web application built with React and JavaScript that consumes a third-party API to generate real-time responses. The project focuses on API integration, asynchronous data handling, and delivering a smooth and user-friendly chat experience.",
+      image: "./project/chat.png",
+      live: "https://chat-bot-1-23sy.onrender.com/",
+      github: "https://github.com/jatinlifo/chat-bot",
+    },
+  ];
 
 
   return (
     <section className="w-full bg-bg">
-      <div className="max-w-6xl mx-auto px-4 md:px-8 py-14 md:py-20">
+      <div className="max-w-6xl mx-auto px-4 md:px-8 py-2 md:py-5">
 
         {/* Heading */}
-        <h1 className="text-3xl md:text-5xl font-bold text-main mb-16 text-center md:text-left">
+        <h1 className="text-3xl md:text-5xl font-bold text-main mb-10 text-center md:text-left">
           Projects
         </h1>
 
