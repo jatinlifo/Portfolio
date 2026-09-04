@@ -72,7 +72,7 @@ function Hero() {
             </p>
 
             <a
-              href="/resume.pdf"
+              href="/Jatin-Dev.pdf"
               download
               className="inline-flex items-center justify-center px-7 py-3 bg-primary text-white font-semibold rounded-md hover:opacity-90 transition"
             >
@@ -84,7 +84,7 @@ function Hero() {
           <div className="w-full md:w-1/2 flex justify-center">
             <div className="w-40 h-40 md:w-64 md:h-64 rounded-full overflow-hidden border-2 border-soft">
               <img
-                src="profile.jpg"
+                src="/profile/2.jpeg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />

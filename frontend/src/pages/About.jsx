@@ -3,25 +3,31 @@ import { AiOutlineLink } from "react-icons/ai";
 
 function About() {
 
-    const achievements = [
+const achievements = [
   {
     platform: "LeetCode",
-    title: "980+ Problems Solved",
+    title: "1200+ Problems Solved",
     description:
-      "Solved 980+ problems focusing on Data Structures, Algorithms, and problem-solving patterns.",
+      "Solved 1200+ coding problems covering Data Structures, Algorithms, and advanced problem-solving patterns, including Meet in the Middle, Segment Trees, Bit Manipulation, Binary Search and more.",
     image: "./archievment/leetcode.png",
     profile: "https://leetcode.com/u/Jatin_SI/",
   },
   {
     platform: "GeeksforGeeks",
-    title: "514 + Problems Solved",
+    title: "700+ Problems Solved",
     description:
-      "Solved 514+ problems and Successfully completed the 160 Days of DSA Challenge on GeeksforGeeks with consistency and discipline.",
+      "Solved 700+ problems across Data Structures and Algorithms, strengthening problem-solving skills, algorithmic thinking, and coding efficiency.",
     image: "./archievment/gfg.png",
     profile: "https://www.geeksforgeeks.org/profile/jatinstud3bdb?tab=activity",
   },
+  {
+    platform: "GeeksforGeeks",
+    title: "GFG160 & NPCI60 Challenge",
+    description:
+      "Successfully completed the GFG160 and NPCI60 coding challenges, demonstrating consistency, discipline, and strong problem-solving skills.",
+    image: "./archievment/certificate.png",
+  },
 ];
-
   return (
     <section className="w-full bg-bg">
       <div className="max-w-6xl mx-auto px-4 md:px-8 py-2 md:py-5">
@@ -38,7 +44,7 @@ function About() {
           <div className="md:w-1/2 flex justify-center">
             <div className="w-40 h-40 md:w-80 md:h-80 rounded-full overflow-hidden border border-soft">
               <img
-                src="/profile.jpg"
+                src="./profile/2.jpeg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />

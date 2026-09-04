@@ -180,6 +180,7 @@ import { DiJava } from "react-icons/di";
 import { IoLogoFigma } from "react-icons/io5";
 import { SiCanva } from "react-icons/si";
 import { PiMicrosoftPowerpointLogoFill } from "react-icons/pi";
+import { DiDocker } from 'react-icons/di';
 
 
 function Skills() {
@@ -290,6 +291,10 @@ function Skills() {
               <div className='flex items-center gap-1'>
                 <PiGithubLogoFill className='bg-white text-black rounded-full' />
                 <span>Git & GitHub</span>
+              </div>
+               <div className='flex items-center gap-1'>
+                <DiDocker className='text-blue-500' />
+                <span>Docker</span>
               </div>
               <div className='flex items-center gap-1'>
                 <SiPostman className='text-orange-400' />
